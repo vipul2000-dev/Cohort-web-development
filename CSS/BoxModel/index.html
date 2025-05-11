@@ -4,15 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        h1{
+            background-color: aquamarine;
+            border-style: solid;
+            border-width: 2px;
+            border-color: brown;
+            border-radius: 10px;
+            width: 500px;
+            height: 200px;
+        }
+        span{
+            background-color:aquamarine ;
+            border: 2px solid brown;
+            border-radius: 10px;
+            /* height: 200px;
+            /* width: 500px; */ /*width and height property is not working in span tag because span is inline elements. */
+        }
+
+        .firstPara{
+            background-color: blanchedalmond;
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+            height: 200px;
+        }
+
+        .secondPara{
+            background-color: blueviolet;
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+            padding: 50px;
+        }
+
+        .thirdPara{
+            background-color: chartreuse;
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Box model</h1>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque placeat similique mollitia dolorem iure! Incidunt doloribus tenetur aut deserunt quibusdam illum vitae saepe, eveniet architecto voluptatibus eaque laborum qui cum?
+    <span>Welcome to cohort web dev course</span>
+
+    <p class="firstPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque placeat similique mollitia dolorem iure! Incidunt doloribus tenetur aut deserunt quibusdam illum vitae saepe, eveniet architecto voluptatibus eaque laborum qui cum?
     </p>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi obcaecati perspiciatis numquam quisquam quidem quia, temporibus recusandae officiis quibusdam esse nisi similique! Harum quidem voluptate quasi ab repellendus voluptatum iure totam error, ullam consectetur delectus sapiente possimus non aut! Eaque dolore error molestiae, voluptate eos voluptates officiis reprehenderit culpa ducimus?</p>
+    <p class="secondPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi obcaecati perspiciatis numquam quisquam quidem quia, temporibus recusandae officiis quibusdam esse nisi similique! Harum quidem voluptate quasi ab repellendus voluptatum iure totam error, ullam consectetur delectus sapiente possimus non aut! Eaque dolore error molestiae, voluptate eos voluptates officiis reprehenderit culpa ducimus?</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni eaque saepe quam fugit minima id dignissimos deleniti aliquam magnam?</p>
+    <p class="thirdPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni eaque saepe quam fugit minima id dignissimos deleniti aliquam magnam?</p>
 </body>
 </html>
